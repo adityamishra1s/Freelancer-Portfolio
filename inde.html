@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelance Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    /* HEADER*/
+    <header>
+        <nav class="nav">
+            <div class="left">
+                <img class="image" src="logo.jpeg" alt="">
+
+            </div>
+            <div class="right">
+                <ul>
+
+                    <li><a href="#left">Home</a></li>
+                    <li><a href="#about"> About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Project</a></li>
+                    <li><a href="#contact">Contect-Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    /* MAIN */
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                <div class="heading"> Hi My Name is
+                    <span class="purple"> Aditya</span>
+                    <div>and I am a passionate</div>
+                </div>
+
+                <span id="element"> </span>
+                <p>
+                    <a class="button" href="#contact">Contect Me</a>
+                    <a class="button" href="">Download Resume</a>
+                </p>
+
+            </div>
+
+            <div class="rightSection">
+                <img src="Aditya.jpeg" alt="">
+            </div>
+        </section>
+
+
+
+        <section class="about">
+            <h2 class="about">About Me</h2>
+
+            <p>I’m Aditya Mishra, a passionate Front-End Web Developer who loves turning creative ideas into modern,
+                responsive, and user-friendly websites. <br> With strong skills in HTML, CSS, and JavaScript, I build
+                clean and visually appealing web pages that look great on all devices. <br> I focus on pixel-perfect
+                design,
+                smooth animations, and fast performance to ensure the best user experience.</p>
+        </section>
+
+        <section id="skills" class="skill-section ">
+
+            <div class="skill-grid">
+                <span> </> </span>
+                <h2>Skills</h2>
+                <ul>
+                    <li>Language :- C/C++,HTML,CSS, JavaScript</li>
+
+                    <li>Tools :- VS code,Git,GitHub</li>
+                </ul>
+
+            </div>
+            <div class="Education">
+                <h2>Education</h2>
+                <ul>
+                    <li>Bachlar Of Computer Application (BCA)</li>
+
+                </ul>
+            </div>
+            <div class="language">
+                <h2>Language</h2>
+                <ul>
+                    <li>Hindi</li>
+                    <li>English
+                </ul>
+            </div>
+        </section>
+
+
+
+
+        <section id="projects" class="project-section">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Weather App</h3>
+                    <p>Get real-time weather updates for your city using OpenWeather API.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Online Resume Builder</h3>
+                    <p>A responsive web app that generates professional resumes in seconds.</p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="contact" class="contact-section">
+            <h2>Contact Me</h2>
+            <div>You can share feedback and </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+
+        </section>
+
+        <section class="logo-section">
+            <img class="image" src="logo.jpeg" alt="">
+
+        </section>
+    </main>
+    /* FOOTER */
+    <footer>
+        <div class="footer-1">&copy; Aditya Mishra. All rights reserved.</div>
+        <div class="footer-2">
+            <a href="mailto:adityamishra09648@gmail.com">Gmail</a>
+            <a href="https://github.com/adityamishra1s" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/aditya-mishra-48587031a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank">LinkedIn</a>
+
+        </div>
+    </footer>
+    
+/* SCRIPT*/
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Front-End Developer', 'Freelancer'],
+            typeSpeed: 100,
+
+            loop: true
+        });
+
+    </script>
+</body>
+
+</html>
